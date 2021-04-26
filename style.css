@@ -1,0 +1,35 @@
+.dropdown {
+    position: absolute;
+    top: 300px;
+    display: inline-block;
+    left: 333px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
